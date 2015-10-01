@@ -1,0 +1,63 @@
+body {
+	padding: 0;
+	background: #fff;
+	text-align: right;
+	margin: 0 auto;
+}
+a img {
+	border: 0;
+}
+a {
+	text-decoration: none;
+	transition: all 0.3s ease-in 0s;
+}
+.head {
+	height: 72px;
+	width: 100%;
+	background: #ddd;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+}
+.head:focus {
+	outline: 0;
+    border: none;
+}
+.logo {
+	float: right;
+	background: url(../img/logo.jpg) no-repeat;
+	height: 72px;
+	width: 143px;
+}
+.icomenu {
+	float: left;
+	height: 72px;
+	vertical-align: middle;
+}
+.icon {
+	float: left;
+	padding: 0px;
+}
+.loading {
+	width: 48px; 
+	height: 72px;
+	background: url(../img/loadingrefresh.gif) no-repeat center;
+}
+#noconnection {
+	display: none;
+	text-align: center;
+}
+#loading {
+	display: none;
+}
+#showcomments, #noconnection {
+	font-size: 1.3rem;
+	padding: 0 15px;
+	font-weight: bold;
+}
+#title {
+	font-size: 1.3rem;
+	padding: 0 15px;
+	font-weight: bold;
+	direction: rtl;
+}
